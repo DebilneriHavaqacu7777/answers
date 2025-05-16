@@ -49,9 +49,9 @@ def dna_encode(sequence):
         elif char == 'G':
             result += 'C'
         else:
-            result += char  # եթե այլ տառ է, թողնում ենք նույնը
+            result += char 
     return result
 
-text = input("Մուտքագրեք տողը՝ ԴՆԹ գաղտնագրման համար: ")
+text = input()
 encoded = dna_encode(text)
 print("Գաղտնագրված տեքստ:", encoded)
