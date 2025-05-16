@@ -1,6 +1,6 @@
 #20
-fuel_per_100km = float(input("Մուտքագրեք վառելիքի ծախսը 100 կմ-ի համար (լիտրով): "))
-distance = float(input("Մուտքագրեք մեքենայի անցած ճանապարհը (կմ): "))
+fuel_per_100km = float(input())
+distance = float(input())
 
 total_fuel = (fuel_per_100km / 100) * distance
 print("Անհրաժեշտ վառելիք:", round(total_fuel, 2), "լիտր")
