@@ -1,4 +1,4 @@
-#1
+7#1
 t = (1,2,3,4,5,6,7)
 print(t)
 
@@ -136,3 +136,15 @@ stops_count = int(input("կանգառների քանակը (1-ից 5): "))
 
 distance = calculate_distance(stops_count)
 print(f"Դուք անցել եք {distance} կմ.")
+
+#20
+flights = (
+    ("Flight A", 10, 12),
+    ("Flight B", 14, 18),
+    ("Flight C", 9, 11)
+)
+
+for flight in flights:
+    name, departure, arrival = flight
+    duration = arrival - departure
+    print(f"{name} չվերթի տևողությունը է {duration} ժամ։")
